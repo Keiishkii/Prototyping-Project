@@ -69,8 +69,6 @@ public class WireGenerator : MonoBehaviour
         _dubugTestCount++;
 
         float averageTimeElapsed = ((float)_totalTime / (float)_dubugTestCount);
-
-        Debug.Log($"Average Time Taken: {averageTimeElapsed}");
     }
 
     private void GenerateMesh()
